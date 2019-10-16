@@ -1,0 +1,21 @@
+{
+  "name": "validity-visible-length",
+  "version": "1.0.0",
+  "description": "A validator to check the number of visible characters within a string",
+  "main": "validator.js",
+  "scripts": {
+    "test": "mocha -- -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grapheme-splitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  }
+}
