@@ -1,10 +1,11 @@
 # Visible length validator
 
-Validity style validator to ensure visible length of strings. Supports emojis and other graphemes through grapheme splitter [https://github.com/orling/grapheme-splitter]
+Validity style validator to ensure visible length of strings. Supports emojis and other graphemes through [grapheme splitter](https://github.com/orling/grapheme-splitter)
 
 ## Installation
 
 ```npm install validity-visible-length --save```
+
 ```yan add validity-visible-length```
 
 ## Usage
@@ -16,12 +17,12 @@ const visibleLength = require('validity-visible-length),
 schemata = require('schemata)
 
 var schema = schemata (
+  {
+    firstName:
     {
-        firstName:
-        {
-            type: String
-            , validators: { [ length(1, 10) ] }
-        }
+      type: String
+      , validators: { [ length(1, 10) ] }
     }
+  }
 )
 ```
