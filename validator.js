@@ -10,7 +10,7 @@ module.exports = function createValidator(min, max) {
     throw new RangeError('max must be larger than min')
   }
 
-  function visibleLengthValidator(key, keyDisplayName, object, cb) {
+  function textLengthValidator(key, keyDisplayName, object, cb) {
     const value = (object[key] && object[key]) || ''
 
     if (typeof value != 'string')
@@ -37,5 +37,5 @@ module.exports = function createValidator(min, max) {
 
     cb(null, message)
   }
-  return visibleLengthValidator
+  return textLengthValidator
 }
