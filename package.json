@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha -- -R spec"
   },
-  "author": "",
+  "author": "Tola Ndumari",
   "license": "ISC",
   "dependencies": {
     "grapheme-splitter": "^1.0.4"
