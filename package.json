@@ -17,5 +17,22 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NdumaTo/validity-text-length.git"
+  },
+  "keywords": [
+    "validity",
+    "text",
+    "length",
+    "validator"
+  ],
+  "bugs": {
+    "url": "https://github.com/NdumaTo/validity-text-length/issues"
+  },
+  "homepage": "https://github.com/NdumaTo/validity-text-length#readme"
 }

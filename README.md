@@ -6,7 +6,7 @@ Validity style validator to ensure visible length of strings. Supports emojis an
 
 ```npm install validity-text-length --save```
 
-```yan add validity-text-length```
+```yarn add validity-text-length```
 
 ## Usage
 
